@@ -1,0 +1,19 @@
+Mode: 0
+
+ActivationFunction:  sigmoid
+
+LearningRate:  	     0.3
+StopCriteria:(1)MSE:	          0.001
+  	     (2)MSE_Fluctuation:  0.0
+MaxNumberOfLearningEpochs:  	  1000
+
+InputFile:        	xorin.dat
+DesiredOutputFile:      xorout.dat
+FirstInstance:          1
+LastInstance:           4
+
+InitialStructureFile:   xor.nni
+FinalStructureFile:     xor.nnf
+
+MeanSquareErrorFile:   	xor/mse.dat
+OutputFileForTest: 	xor/out.dat
