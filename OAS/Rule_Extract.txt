@@ -1,0 +1,44 @@
+7
+Node: x1 1
+Node: x2 1
+Node: y 3
+true : Positive
+list : ~h3
+true : Negative
+list : h3&~h2
+true : Negative
+list : h3&h1
+true : Negative
+list : h3&h4
+true : Positive
+list : h2&~h1&~h4
+END : RULE
+
+Node: h1 4
+true : Positive
+list : x1
+true : Positive
+list : ~x2
+true : Negative
+list : ~x1&x2
+END : RULE
+
+Node: h2 4
+true : Positive
+list : x2
+true : Positive
+list : ~x1
+true : Negative
+list : ~x2&x1
+END : RULE
+
+Node: h3 4
+true : Negative
+list : ALWAYS
+END : RULE
+
+Node: h4 4
+true : Negative
+list : ALWAYS
+END : RULE
+
