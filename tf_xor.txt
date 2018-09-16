@@ -1,12 +1,12 @@
-output Node : y
+output Node : y1
 Positive : 0 
 ~x1&~x2
 Positive : 0 
 x1&x2
 Positive : 1 
-x1&~x2
-Positive : 1 
 ~x1&x2
+Positive : 1 
+x1&~x2
 
 
 
